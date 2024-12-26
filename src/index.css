@@ -1,0 +1,125 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Main page */
+body{
+  
+  background: #0D0D0D;
+  padding: auto;
+  margin: 0;
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(18, 20, 22);
+  
+  
+}
+/* List */
+
+.List {
+  width: 736px;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none; 
+    
+  color: rgb(34, 93, 221);
+}
+
+ul{
+  
+  border:1px solid #f7f4f4;
+  border-radius: 10px;
+  color: rgb(34, 93, 221);
+  padding:20px;
+  font-size: 900 bold;
+  list-style-type: none;
+  text-align: left;
+}
+li{
+  
+  border: 10px none #000;
+  color: rgb(34, 93, 221);
+  padding:20px 736px;
+  margin-top: 15px;
+}
+
+input{
+  height: 35px;
+  width: 736px;
+  background-color: #ffffff;
+  border-radius:5px;
+  margin-bottom: 10px;
+}
+/* .test{
+  display: center;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 200px;
+  background-color: #0D0D0D;
+  margin: 0 auto;
+} */
+
+img{
+  width: 226px;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Button colors */
+.createB {
+  padding: 20px 720px;
+  font-size: 16px;
+  background-color: #1E6F9F;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.createB:hover {
+  background-color: #145374;
+}
+
+.delete-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for the delete button */
+.delete-button:hover {
+  background-color: #ff3333;
+}
+
+/* tasks list */
+.todo-item:hover {
+  background-color: #2e2e2e;
+}
+.todo-text {
+  flex: 1; 
+}
+.todo-item {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  background-color: #1e1e1e;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #444;
+  transition: background-color 0.3s;
+} */
